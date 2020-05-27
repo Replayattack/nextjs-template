@@ -13,7 +13,7 @@ export default class CustomDocument extends Document<CustomDocumentProps> {
 
   render(): JSX.Element {
     return (
-      <html>
+      <html lang="en">
         <Head>
           <style
             data-emotion-css={this.props.ids.join(' ')}
