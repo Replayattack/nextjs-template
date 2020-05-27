@@ -2,7 +2,7 @@
   "**/*.[jt]sx?": [
     "eslint"
   ],
-  "**/*.+(json|jsx?|tsx?|html)": [
+  "**/*.+(json|[jt]sx?|html)": [
     "prettier --write",
     "jest --findRelatedTests"
   ]
