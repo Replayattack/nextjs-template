@@ -15,9 +15,6 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
-    "plugin:prettier/recommended",
-    "prettier/@typescript-eslint",
-    "prettier/react",
     "plugin:jest/all"
   ],
   "rules": {
@@ -26,15 +23,28 @@
     "jest/require-top-level-describe": "off"
   },
   "env": {
-    "browser": true,
-    "jest": true,
-    "es6": true
+    "browser": true
   },
   "settings": {
     "react": {
       "pragma": "React",
-      "version": "latest"
+      "version": "16"
     }
   },
-  "reportUnusedDisableDirectives": true
+  "reportUnusedDisableDirectives": true,
+  "overrides": [
+    {
+      "files": ["*.config.js"],
+      "parser": "espree",
+      "env": {
+        "node": true
+      }
+    },
+    {
+      "files": ["*.test.ts", "*.test.tsx"],
+      "env": {
+        "jest": true
+      }
+    }
+  ]
 }
