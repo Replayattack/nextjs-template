@@ -31,7 +31,7 @@
     "@emotion/babel-preset-css-prop": "^10.0.27",
     "@tailwindcss/ui": "^0.3.0",
     "@tailwindcssinjs/macro": "^0.7.2",
-    "@testing-library/jest-dom": "^5.10.0",
+    "@testing-library/jest-dom": "^5.10.1",
     "@testing-library/react": "^10.2.1",
     "@testing-library/user-event": "^11.4.2",
     "@types/node": "^14.0.13",
