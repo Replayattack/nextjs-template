@@ -16,6 +16,7 @@
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
     "plugin:jest/all",
+    "plugin:jest-formatting/strict",
     "plugin:jest-dom/recommended",
     "plugin:testing-library/react",
     "plugin:jsx-a11y/recommended"
