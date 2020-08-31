@@ -1,9 +1,4 @@
 {
-  "**/*.[jt]sx?": [
-    "eslint"
-  ],
-  "**/*.+(json|[jt]sx?|html)": [
-    "prettier --write",
-    "jest --findRelatedTests"
-  ]
+  "**/*.[jt]sx?": ["eslint"],
+  "**/*.+(json|[jt]sx?|html)": ["prettier --write", "jest --findRelatedTests"]
 }
