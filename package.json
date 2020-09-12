@@ -13,14 +13,9 @@
     "format": "npm run prettier -- --write",
     "check-format": "npm run prettier -- --list-different",
     "check-types": "tsc",
-    "validate": "npm-run-all --parallel check-types check-format lint build",
-    "tailwind": "tailwindcss build ./styles/tailwind.base.css -o ./styles/global.css"
+    "validate": "npm-run-all --parallel check-types check-format lint build"
   },
   "dependencies": {
-    "@emotion/core": "^10.0.35",
-    "@emotion/styled": "^10.0.27",
-    "emotion": "^10.0.27",
-    "emotion-server": "^10.0.27",
     "formik": "^2.1.5",
     "next": "^9.5.3",
     "react": "^16.13.1",
@@ -29,9 +24,7 @@
     "react-query": "^2.16.1"
   },
   "devDependencies": {
-    "@emotion/babel-preset-css-prop": "^10.0.27",
     "@tailwindcss/ui": "^0.6.0",
-    "@tailwindcssinjs/macro": "^0.9.2",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.0.2",
     "@testing-library/user-event": "^12.1.4",
@@ -40,7 +33,6 @@
     "@typescript-eslint/eslint-plugin": "^4.1.0",
     "@typescript-eslint/parser": "^4.1.0",
     "babel-jest": "^26.3.0",
-    "babel-plugin-macros": "^2.8.0",
     "eslint": "^7.8.1",
     "eslint-plugin-jest": "^24.0.0",
     "eslint-plugin-jest-dom": "^3.2.3",
@@ -53,7 +45,6 @@
     "identity-obj-proxy": "^3.0.0",
     "is-ci-cli": "^2.1.2",
     "jest": "^26.4.2",
-    "jest-emotion": "^10.0.32",
     "jest-watch-typeahead": "^0.6.1",
     "lint-staged": "^10.3.0",
     "msw": "^0.21.1",
