@@ -20,8 +20,8 @@
     "next": "^9.5.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-error-boundary": "^3.0.0",
-    "react-query": "^2.16.1"
+    "react-error-boundary": "^3.0.1",
+    "react-query": "^2.17.0"
   },
   "devDependencies": {
     "@tailwindcss/ui": "^0.6.0",
@@ -33,8 +33,8 @@
     "@typescript-eslint/eslint-plugin": "^4.1.0",
     "@typescript-eslint/parser": "^4.1.0",
     "babel-jest": "^26.3.0",
-    "eslint": "^7.8.1",
-    "eslint-plugin-jest": "^24.0.0",
+    "eslint": "^7.9.0",
+    "eslint-plugin-jest": "^24.0.1",
     "eslint-plugin-jest-dom": "^3.2.3",
     "eslint-plugin-jest-formatting": "^2.0.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
@@ -47,7 +47,7 @@
     "jest": "^26.4.2",
     "jest-watch-typeahead": "^0.6.1",
     "lint-staged": "^10.3.0",
-    "msw": "^0.21.1",
+    "msw": "^0.21.2",
     "npm-run-all": "^4.1.5",
     "postcss-preset-env": "^6.7.0",
     "prettier": "^2.1.1",
