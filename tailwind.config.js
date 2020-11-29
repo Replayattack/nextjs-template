@@ -7,14 +7,10 @@ module.exports = {
       './pages/**/*.{js,ts,jsx,tsx}',
     ],
   },
+  darkMode: 'media',
   theme: {
     extend: {},
   },
   variants: {},
   plugins: [require('@tailwindcss/ui')],
-  future: {
-    darkModeVariant: true,
-    purgeLayersByDefault: true,
-    removeDeprecatedGapUtilities: true,
-  },
 }
